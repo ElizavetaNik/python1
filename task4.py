@@ -1,7 +1,4 @@
-n = int(input("Введите число: "))
-summa = 0
-while n>0:
-    x = n%10
-    summa=x+summa
-    n=n//10
-print(summa)
+n = int(input("сделали  журавликов: "))
+print(f'{int (n/6)} сделал Сережа')
+print(f'{int (n/6)} сделал Петя')
+print(f'{int (4 *(n/6))} сделала Катя')
